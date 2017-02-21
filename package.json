@@ -1,0 +1,22 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "seeds.js",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongodb": "^2.2.24",
+    "nodemon": "^1.11.0",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha client/src/models/specs",
+    "start": "node server.js"
+  },
+  "author": "jannal",
+  "license": "ISC"
+}
